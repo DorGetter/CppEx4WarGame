@@ -85,14 +85,12 @@ using namespace std;
     }
 
     bool Board::MoveValidator(std::pair<int, int> valid) {
-        if(valid.first < board.size() || valid.first > 0 ||
-                valid.second < board.size() || valid.second > 0 ){
+        if(valid.first < board.size() && valid.first >= 0 &&
+                valid.second < board.size() && valid.second >= 0 ){
             Soldier *tSoldier = board[valid.first][valid.second];
-            if(tSoldier == nullptr)
-                return true;
-            else
-                return false;
-        }       throw invalid_argument("location is not in the play board or place is taken");
+            if(tSoldier == nullptr){ return true; }
+            else{                    return false;}
+        }throw invalid_argument("location is not in the play board or place is taken");
     }
 
     //void Board::attack(std::pair<int, int> source, Soldier *soldier) {}
