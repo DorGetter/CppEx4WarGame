@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/wargame_a.dir/Board.cpp.o CMakeFiles/wargame_a.dir/Run.cpp.o  -o wargame_a 
