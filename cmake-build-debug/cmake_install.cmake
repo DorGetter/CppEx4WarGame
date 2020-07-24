@@ -1,4 +1,4 @@
-# Install script for directory: /home/dor/Documents/blbla/wargame-a
+# Install script for directory: /home/dor/Desktop/task4_WarGame/WarGame_
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dor/Documents/blbla/wargame-a/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

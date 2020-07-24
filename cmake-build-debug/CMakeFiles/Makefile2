@@ -35,25 +35,25 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/114/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/121/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/121/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dor/Documents/blbla/wargame-a
+CMAKE_SOURCE_DIR = /home/dor/Desktop/task4_WarGame/WarGame_
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dor/Documents/blbla/wargame-a/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/wargame_a.dir/all
+all: CMakeFiles/WarGame_.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/wargame_a.dir/clean
+clean: CMakeFiles/WarGame_.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/wargame_a.dir
+# Target rules for target CMakeFiles/WarGame_.dir
 
 # All Build rule for target.
-CMakeFiles/wargame_a.dir/all:
-	$(MAKE) -f CMakeFiles/wargame_a.dir/build.make CMakeFiles/wargame_a.dir/depend
-	$(MAKE) -f CMakeFiles/wargame_a.dir/build.make CMakeFiles/wargame_a.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dor/Documents/blbla/wargame-a/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target wargame_a"
-.PHONY : CMakeFiles/wargame_a.dir/all
+CMakeFiles/WarGame_.dir/all:
+	$(MAKE) -f CMakeFiles/WarGame_.dir/build.make CMakeFiles/WarGame_.dir/depend
+	$(MAKE) -f CMakeFiles/WarGame_.dir/build.make CMakeFiles/WarGame_.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target WarGame_"
+.PHONY : CMakeFiles/WarGame_.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/wargame_a.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dor/Documents/blbla/wargame-a/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wargame_a.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dor/Documents/blbla/wargame-a/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/wargame_a.dir/rule
+CMakeFiles/WarGame_.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/WarGame_.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/WarGame_.dir/rule
 
 # Convenience name for target.
-wargame_a: CMakeFiles/wargame_a.dir/rule
+WarGame_: CMakeFiles/WarGame_.dir/rule
 
-.PHONY : wargame_a
+.PHONY : WarGame_
 
 # clean rule for target.
-CMakeFiles/wargame_a.dir/clean:
-	$(MAKE) -f CMakeFiles/wargame_a.dir/build.make CMakeFiles/wargame_a.dir/clean
-.PHONY : CMakeFiles/wargame_a.dir/clean
+CMakeFiles/WarGame_.dir/clean:
+	$(MAKE) -f CMakeFiles/WarGame_.dir/build.make CMakeFiles/WarGame_.dir/clean
+.PHONY : CMakeFiles/WarGame_.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

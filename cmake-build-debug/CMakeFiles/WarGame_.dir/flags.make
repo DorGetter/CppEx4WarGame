@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dor/Documents/blbla/wargame-a/. 
+CXX_INCLUDES = -I/home/dor/Desktop/task4_WarGame/WarGame_/. 
 

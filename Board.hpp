@@ -23,7 +23,7 @@ class Board {
     enum MoveDIR { Up, Down, Right, Left };
 
     Board(uint numRows, uint numCols) :
-      board(numRows, std::vector<Soldier*>(numCols, nullptr)) {}
+      board(numRows, std::vector<Soldier*>(numCols, nullptr)) {std::cout << "\tGet Ready for War!\nChoose your'e soldiers!"<<std::endl;}
 
     // operator for putting soldiers on the game-board during initialization.
     Soldier*& operator[](std::pair<int,int> location);

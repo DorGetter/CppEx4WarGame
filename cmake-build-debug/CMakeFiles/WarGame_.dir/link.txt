@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/WarGame_.dir/Board.cpp.o CMakeFiles/WarGame_.dir/DemoGame.cpp.o CMakeFiles/WarGame_.dir/Demo.cpp.o  -o WarGame_ 

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/114/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/121/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/121/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dor/Documents/blbla/wargame-a
+CMAKE_SOURCE_DIR = /home/dor/Desktop/task4_WarGame/WarGame_
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dor/Documents/blbla/wargame-a/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/dor/Documents/blbla/wargame-a/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/114/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/121/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/114/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/121/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dor/Documents/blbla/wargame-a/cmake-build-debug/CMakeFiles /home/dor/Documents/blbla/wargame-a/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/CMakeFiles /home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dor/Documents/blbla/wargame-a/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named wargame_a
+# Target rules for targets named WarGame_
 
 # Build rule for target.
-wargame_a: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wargame_a
-.PHONY : wargame_a
+WarGame_: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 WarGame_
+.PHONY : WarGame_
 
 # fast build rule for target.
-wargame_a/fast:
-	$(MAKE) -f CMakeFiles/wargame_a.dir/build.make CMakeFiles/wargame_a.dir/build
-.PHONY : wargame_a/fast
+WarGame_/fast:
+	$(MAKE) -f CMakeFiles/WarGame_.dir/build.make CMakeFiles/WarGame_.dir/build
+.PHONY : WarGame_/fast
 
 Board.o: Board.cpp.o
 
@@ -129,7 +129,7 @@ Board.o: Board.cpp.o
 
 # target to build an object file
 Board.cpp.o:
-	$(MAKE) -f CMakeFiles/wargame_a.dir/build.make CMakeFiles/wargame_a.dir/Board.cpp.o
+	$(MAKE) -f CMakeFiles/WarGame_.dir/build.make CMakeFiles/WarGame_.dir/Board.cpp.o
 .PHONY : Board.cpp.o
 
 Board.i: Board.cpp.i
@@ -138,7 +138,7 @@ Board.i: Board.cpp.i
 
 # target to preprocess a source file
 Board.cpp.i:
-	$(MAKE) -f CMakeFiles/wargame_a.dir/build.make CMakeFiles/wargame_a.dir/Board.cpp.i
+	$(MAKE) -f CMakeFiles/WarGame_.dir/build.make CMakeFiles/WarGame_.dir/Board.cpp.i
 .PHONY : Board.cpp.i
 
 Board.s: Board.cpp.s
@@ -147,35 +147,62 @@ Board.s: Board.cpp.s
 
 # target to generate assembly for a file
 Board.cpp.s:
-	$(MAKE) -f CMakeFiles/wargame_a.dir/build.make CMakeFiles/wargame_a.dir/Board.cpp.s
+	$(MAKE) -f CMakeFiles/WarGame_.dir/build.make CMakeFiles/WarGame_.dir/Board.cpp.s
 .PHONY : Board.cpp.s
 
-Run.o: Run.cpp.o
+Demo.o: Demo.cpp.o
 
-.PHONY : Run.o
+.PHONY : Demo.o
 
 # target to build an object file
-Run.cpp.o:
-	$(MAKE) -f CMakeFiles/wargame_a.dir/build.make CMakeFiles/wargame_a.dir/Run.cpp.o
-.PHONY : Run.cpp.o
+Demo.cpp.o:
+	$(MAKE) -f CMakeFiles/WarGame_.dir/build.make CMakeFiles/WarGame_.dir/Demo.cpp.o
+.PHONY : Demo.cpp.o
 
-Run.i: Run.cpp.i
+Demo.i: Demo.cpp.i
 
-.PHONY : Run.i
+.PHONY : Demo.i
 
 # target to preprocess a source file
-Run.cpp.i:
-	$(MAKE) -f CMakeFiles/wargame_a.dir/build.make CMakeFiles/wargame_a.dir/Run.cpp.i
-.PHONY : Run.cpp.i
+Demo.cpp.i:
+	$(MAKE) -f CMakeFiles/WarGame_.dir/build.make CMakeFiles/WarGame_.dir/Demo.cpp.i
+.PHONY : Demo.cpp.i
 
-Run.s: Run.cpp.s
+Demo.s: Demo.cpp.s
 
-.PHONY : Run.s
+.PHONY : Demo.s
 
 # target to generate assembly for a file
-Run.cpp.s:
-	$(MAKE) -f CMakeFiles/wargame_a.dir/build.make CMakeFiles/wargame_a.dir/Run.cpp.s
-.PHONY : Run.cpp.s
+Demo.cpp.s:
+	$(MAKE) -f CMakeFiles/WarGame_.dir/build.make CMakeFiles/WarGame_.dir/Demo.cpp.s
+.PHONY : Demo.cpp.s
+
+DemoGame.o: DemoGame.cpp.o
+
+.PHONY : DemoGame.o
+
+# target to build an object file
+DemoGame.cpp.o:
+	$(MAKE) -f CMakeFiles/WarGame_.dir/build.make CMakeFiles/WarGame_.dir/DemoGame.cpp.o
+.PHONY : DemoGame.cpp.o
+
+DemoGame.i: DemoGame.cpp.i
+
+.PHONY : DemoGame.i
+
+# target to preprocess a source file
+DemoGame.cpp.i:
+	$(MAKE) -f CMakeFiles/WarGame_.dir/build.make CMakeFiles/WarGame_.dir/DemoGame.cpp.i
+.PHONY : DemoGame.cpp.i
+
+DemoGame.s: DemoGame.cpp.s
+
+.PHONY : DemoGame.s
+
+# target to generate assembly for a file
+DemoGame.cpp.s:
+	$(MAKE) -f CMakeFiles/WarGame_.dir/build.make CMakeFiles/WarGame_.dir/DemoGame.cpp.s
+.PHONY : DemoGame.cpp.s
 
 # Help Target
 help:
@@ -185,13 +212,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... wargame_a"
+	@echo "... WarGame_"
 	@echo "... Board.o"
 	@echo "... Board.i"
 	@echo "... Board.s"
-	@echo "... Run.o"
-	@echo "... Run.i"
-	@echo "... Run.s"
+	@echo "... Demo.o"
+	@echo "... Demo.i"
+	@echo "... Demo.s"
+	@echo "... DemoGame.o"
+	@echo "... DemoGame.i"
+	@echo "... DemoGame.s"
 .PHONY : help
 
 

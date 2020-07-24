@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dor/Documents/blbla/wargame-a/Board.cpp" "/home/dor/Documents/blbla/wargame-a/cmake-build-debug/CMakeFiles/wargame_a.dir/Board.cpp.o"
-  "/home/dor/Documents/blbla/wargame-a/Run.cpp" "/home/dor/Documents/blbla/wargame-a/cmake-build-debug/CMakeFiles/wargame_a.dir/Run.cpp.o"
+  "/home/dor/Desktop/task4_WarGame/WarGame_/Board.cpp" "/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/CMakeFiles/WarGame_.dir/Board.cpp.o"
+  "/home/dor/Desktop/task4_WarGame/WarGame_/Demo.cpp" "/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/CMakeFiles/WarGame_.dir/Demo.cpp.o"
+  "/home/dor/Desktop/task4_WarGame/WarGame_/DemoGame.cpp" "/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/CMakeFiles/WarGame_.dir/DemoGame.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

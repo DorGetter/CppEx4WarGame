@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="WarGame_"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WarGame_">
+				<Option output="/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/WarGame_" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dor/Desktop/task4_WarGame/WarGame_/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 WarGame_"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WarGame_/fast">
+				<Option output="/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/WarGame_" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dor/Desktop/task4_WarGame/WarGame_/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 WarGame_/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/dor/Desktop/task4_WarGame/WarGame_/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dor/Desktop/task4_WarGame/WarGame_/Board.cpp">
+			<Option target="WarGame_"/>
+		</Unit>
+		<Unit filename="/home/dor/Desktop/task4_WarGame/WarGame_/Board.hpp">
+			<Option target="WarGame_"/>
+		</Unit>
+		<Unit filename="/home/dor/Desktop/task4_WarGame/WarGame_/Demo.cpp">
+			<Option target="WarGame_"/>
+		</Unit>
+		<Unit filename="/home/dor/Desktop/task4_WarGame/WarGame_/DemoGame.cpp">
+			<Option target="WarGame_"/>
+		</Unit>
+		<Unit filename="/home/dor/Desktop/task4_WarGame/WarGame_/DemoGame.hpp">
+			<Option target="WarGame_"/>
+		</Unit>
+		<Unit filename="/home/dor/Desktop/task4_WarGame/WarGame_/FootCommander.hpp">
+			<Option target="WarGame_"/>
+		</Unit>
+		<Unit filename="/home/dor/Desktop/task4_WarGame/WarGame_/FootSoldier.hpp">
+			<Option target="WarGame_"/>
+		</Unit>
+		<Unit filename="/home/dor/Desktop/task4_WarGame/WarGame_/Paramedic.hpp">
+			<Option target="WarGame_"/>
+		</Unit>
+		<Unit filename="/home/dor/Desktop/task4_WarGame/WarGame_/ParamedicCommander.hpp">
+			<Option target="WarGame_"/>
+		</Unit>
+		<Unit filename="/home/dor/Desktop/task4_WarGame/WarGame_/Sniper.hpp">
+			<Option target="WarGame_"/>
+		</Unit>
+		<Unit filename="/home/dor/Desktop/task4_WarGame/WarGame_/SniperCommander.hpp">
+			<Option target="WarGame_"/>
+		</Unit>
+		<Unit filename="/home/dor/Desktop/task4_WarGame/WarGame_/Soldier.hpp">
+			<Option target="WarGame_"/>
+		</Unit>
+		<Unit filename="/home/dor/Desktop/task4_WarGame/WarGame_/doctest.h">
+			<Option target="WarGame_"/>
+		</Unit>
+		<Unit filename="/home/dor/Desktop/task4_WarGame/WarGame_/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

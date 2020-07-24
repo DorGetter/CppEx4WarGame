@@ -19,6 +19,7 @@ namespace WarGame {
 		// Add soldiers for player 1:
 			//assert(!board.has_soldiers(1));
 			board[{0,1}] = new FootSoldier(1);
+			board.print_board();
 			board[{0,3}] = new FootCommander(1);
 			board[{0,5}] = new FootSoldier(1);
 			//assert(board.has_soldiers(1));
